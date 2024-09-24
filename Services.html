@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serivces</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
+integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+</script>
+
+</head>
+<style>
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    .service-img{
+        width: 100%;
+        height: 35%;
+        background-image: url(images/services-2.jpg);
+        opacity: 80%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .start-av{
+        height: 40%;
+        width: 100%;
+        /* border: 1px solid lightgray; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    hr{
+        background-color: rgb(189, 5, 36);
+        width: 20%;
+        height: 2px;
+    }
+    .diff-serivces-1{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid lightgray; */
+    }
+    .child-serv{
+        height: 60%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent-child-1{
+        height: 90%;
+        width: 90%;
+        /* border: 1px solid black; */
+        background-image: url(images/bag\ packing.jpg);
+        background-size: cover;
+        border-radius: 5px 5px 5px 5px ;
+        box-shadow: 5px 5px 0 1px rgba(0, 0, 0, .07);
+        
+    }
+    .child-serv-2{
+        height: 40%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .difference-service{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .diff-serivces-2{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid lightgray; */
+    }
+    .child-serv-section{
+        height: 60%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent-child-2{
+        height: 90%;
+        width: 90%;
+        /* border: 1px solid black; */
+        background-image: url(images/family\ hiking\ trips.jpg);
+        background-size: cover;
+        border-radius: 5px 5px 5px 5px ;
+        box-shadow: 5px 5px 0 1px rgba(0, 0, 0, .07);
+    }
+    .child-serv-section-2{
+        height: 40%;
+        width: 100%;
+        /* border: 1px solid black; */
+        /* margin-top: 5px; */
+    }
+    .difference-service-2{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child-serv-section-3-1{
+        height: 60%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .parent-child-3{
+        height: 90%;
+        width: 90%;
+        /* border: 1px solid black; */
+        background-image: url(images/water\ games.jpg);
+        background-size: cover;
+        border-radius: 5px 5px 5px 5px ;
+        box-shadow: 5px 5px 0 1px rgba(0, 0, 0, .07);
+    }
+    .child-serv-section-3-2{
+        height: 40%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .child-serv-section-4{
+        height: 60%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+    .child-serv-section-4-1{
+        height: 40%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .parent-child-4{
+        height: 90%;
+        width: 90%;
+        /* border: 1px solid black; */
+        background-image: url(images/Winter\ sports.jpg);
+        background-size: cover;
+        border-radius: 5px 5px 5px 5px ;
+        box-shadow: 5px 5px 0 1px rgba(0, 0, 0, .07);
+    }
+    .service-info{
+        height: 120%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .info-container-1{
+       height: 50%;
+       width: 100%;
+       /* border: 1px solid black; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      
+    }
+    .parent-info{
+        height: 95%;
+        width: 95%;
+        /* border: 1px solid black; */
+    }
+    .info-container-2{
+        height: 50%;
+       width: 100%;
+       /* border: 1px solid black; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .parent-info-2{
+        height: 95%;
+        width: 95%;
+        /* border: 1px solid black; */
+    }
+    .footer-section{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+   }
+   .footer-s1{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid black; */
+   }
+   .footer-s2{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+    
+   @media (min-width:1024px) {
+       .service-img{
+        width: 100%;
+        height: 80%;
+        background-size: cover;
+       }
+       .service-name{
+        font-weight: 900;
+        font-size: 50px;
+       }
+       .Start-lp{
+        font-weight: 900;
+       }
+       .start-text{
+        font-size: 20px;
+       }
+       .difference-service{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .diff-serivces-1{
+        height: 100%;
+    }
+    .diff-serivces-2{
+        height: 100%;
+    }
+    .packing-text{
+        font-size: 20px;
+    }
+    .difference-service-2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .service-info{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row; 
+    }
+    .footer-section{
+
+    }
+       
+   }
+    
+
+    
+
+
+</style>
+
+
+
+<body>
+
+    <div>
+
+        <nav class="navbar navbar-expand-sm bg-dark">
+            <a class="navbar-brand" href="#" style="color: white;">
+                OUTDOOR
+                <p style="font-size: 18px;">ADVENTURE </p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <img src="images/menu-burger.png" width="20px">
+              </span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html" style="color: white;">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="Services.html" style="color: white;">Services </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="project.html" style="color: white;"> Projects </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html" style="color: white;">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: white;">Contact</a>
+                  </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+
+
+    </div>
+    <div class="service-img">
+
+         <h1 class="service-name" style="color: white; font-family: cursive;">Services</h1>
+
+    </div>
+    <div class="start-av">
+        
+        <h3 class="Start-lp" style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px; text-align: center;">
+            It's Time to Start Your Adventures
+        </h3>
+        <!-- <br> -->
+        <hr>
+        <br>
+        <p class="start-text" style="font-family: cursive; text-align: center;">
+            Adventuring not only expands your mind by building up your bravery, 
+            but is also an opportunity to grow and learn.
+        </p>
+
+
+    </div>
+
+<!-- Start Adventure journey step1 -->
+ <div class="difference-service">
+    <div class="diff-serivces-1">
+
+        <div class="child-serv">
+           <div class="parent-child-1">
+
+           </div>
+        </div>
+
+        <div class="child-serv-2">
+
+            <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18px; font-weight: 700; text-align: center;"> 
+                Backpacking Trips
+            </h3>
+            <br>
+            <p class="packing-text" style="font-family: cursive; text-align: center;">
+                Sometimes, when a climb seems too challenging, or it starts to rain during a hike.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Start Adventure journey step2 -->
+
+    <div class="diff-serivces-2">
+        <div class="child-serv-section">
+            <div class="parent-child-2">
+ 
+            </div>
+         </div>
+ 
+         <div class="child-serv-section-2">
+ 
+             <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18px; font-weight: 700; text-align: center;">
+                 Family Hiking Trips
+            </h3>
+             <br>
+             <p class="packing-text" style="font-family: cursive; text-align: center;">
+                Life is short, but the memories made on a family hike will last forever. 
+             </p>
+         </div>
+
+        </div>
+    </div>
+ 
+         <!-- Start Adventure journey step3 -->
+
+    <div class="difference-service-2">
+    <div class="diff-serivces-2">
+        <div class="child-serv-section-3-1">
+            <div class="parent-child-3">
+ 
+            </div>
+         </div>
+ 
+         <div class="child-serv-section-3-2">
+ 
+             <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18px; font-weight: 700; text-align: center;">
+                 Water Sports
+            </h3>
+             <br>
+             <p class="packing-text" style="font-family: cursive; text-align: center;">
+                Water is everywhere and in all living things - we cannot be separated from water. No water, no life.
+             </p>
+         </div>
+ 
+         <!-- Start Adventure journey step4 -->
+
+    </div>
+    <div class="diff-serivces-2">
+        <div class="child-serv-section-4">
+            <div class="parent-child-4">
+ 
+            </div>
+         </div>
+ 
+         <div class="child-serv-section-4-1">
+ 
+             <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18px; font-weight: 700; text-align: center;">
+                 Winter sports
+            </h3>
+             <br>
+             <p class="packing-text" style="font-family: cursive; text-align: center;">
+                In the winter you can enjoy building a snowman, sledding, and ice skating, 
+                all of which can be done with or without friends. 
+             </p>
+         </div>
+ 
+
+
+    </div>
+
+</div>
+
+<br>
+
+<!-- Service Adventure Information -->
+
+
+
+<div class="service-info">
+
+      <div class="info-container-1">
+        <div class="parent-info">
+            <p class="packing-text" style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 700;">Why Outdoor Adventure</p>
+            <hr>
+            
+            <p class="packing-text" style="font-family: cursive;">
+                Through participation in these challenging physical and emotional activities, 
+                outdoor adventure learning to develop self-confidence and motivation.
+            </p>
+            <br>
+            
+            <p class="packing-text" style="font-family: cursive;">Experience: 10 Years Experience</p>
+            <p class="packing-text" style="font-family: cursive;">Reputation: Minimise Risk & Good Travelling Experience</p>
+            <p class="packing-text" style="font-family: cursive;">Guide Experience: 5 Years With No Extra Charges</p>
+
+        </div>
+      </div>  
+    
+
+
+      <div class="packing-text" class="info-container-2">
+        <div class="parent-info-2">
+            <p class="packing-text" style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 700;">What You Get</p>
+            <hr>
+            
+            <p class="packing-text" style="font-family: cursive;">
+                Adventuring not only expands your mind by building up your bravery, 
+                but is also an opportunity to grow and learn.
+            </p>
+            <br>
+            
+            <p class="packing-text" style="font-family: cursive;">Private Hike: Enjoy Your Hiking with Private Hike</p>
+            <p class="packing-text" style="font-family: cursive;">Transportation: Buses, Train Bokking, Flight Booking</p>
+            <p class="packing-text" style="font-family: cursive;">Great Facilities: Including Hotel & Meal No Extra Charge</p>
+
+        </div>
+
+      </div>
+     
+
+
+</div>
+
+<footer class="footer-section">
+
+    <div class="footer-s1">
+
+    </div>
+    <div class="footer-s2">
+            <p style="color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                123 Fifth Avenue, NY 10160, Nagpur, India |</p>
+            
+            <p style="color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Phone: 800-123-456 | </p>
+            
+            <p style="color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Email: contact@example.com</p>
+            
+            <p style="color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Copyright (c) 2024 Outdoor Adventure</p>
+    </div>
+
+</footer>
+
+       
+
+
+
+
+
+</body>
+</html>

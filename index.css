@@ -1,0 +1,762 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main-first{
+    height: 100%;
+    width: 100%;
+}
+.main-navbar{
+    height: 12%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.nav-section{
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para-out{
+     font-weight: 900;
+     font-size: 18px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para-adve{
+     font-weight: 900;
+}
+.blank-section{
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid black; */
+}
+.nav-dropdown{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-drop-line{
+    height: 50%;
+    width: 40%;
+    /* border: 1px solid black; */
+    background-color: rgb(242, 63, 93);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+.drop-line{
+    height: 5%;
+    width: 30%;
+    /* border: 1px solid white; */
+    margin: 2px;
+    background-color: white;
+    
+    
+}
+.main-img{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    background-image: url(images/first\ background\ image.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para-1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+hr{
+    background-color: rgb(189, 5, 36);
+    width: 20%;
+    height: 3px;
+}
+.heading-1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+.button-section{
+    height: 45px;
+    width: 160px;
+    background-color: rgb(250, 51, 84);
+    color:white;
+    font-weight: 700;
+    border-radius: 10px 30px 10px 30px ;
+    /* border-top-left-radius: 30%; */
+    /* border-bottom-right-radius: 30%; */
+    border: none;
+    margin-top: 10px;
+    
+}
+.first-page-bottom{
+    height: 38%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-child-cont{
+    height: 95%;
+    width: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-para{
+    font-weight: 700;
+    font-size: 17px;
+    margin: 5px;
+    color: rgb(69, 67, 67);
+}
+.bottom-para-2{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    color: rgb(78, 76, 76);
+}
+.second-page{
+    height: 500%;
+    width: 100%;
+    /* border: 1px solid lightgrey; */
+}
+.second-page-upcoming{
+    height: 3%;
+    width: 100%;
+    /* border: 1px solid lightgray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-page-events{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.events-img{
+     height: 50%;
+     width: 100%;
+     /* border: 1px solid black; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.child-cont-img{
+    height: 90%;
+    width: 90%;
+    /* border: 1px solid black; */
+    background-image:url(images/camping\ image.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+    
+}
+.events-content{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.second-page-upcoming-2{
+    height: 3%;
+    width: 100%;
+    /* border: 1px solid lightgray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-page-events-2{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.events-img-2{
+     height: 50%;
+     width: 100%;
+     /* border: 1px solid black; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.child-cont-img-2{
+    height: 90%;
+    width: 90%;
+    /* border: 1px solid black; */
+    background-image:url(images/walking.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+    
+}
+.events-content-2{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.third-page{
+    height: 11%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(images/second\ background\ image.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.third-under-text{
+    height: 80%;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+.upcoming-tour{
+    height: 13%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.upcoming-content{
+    height: 80%;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-decoration: underline; */
+    margin-top: 10px;
+}
+.image-section{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p-img-1{
+    height: 95%;
+    width: 95%;
+    /* border: 1px solid black; */
+    background-image: url(images/Rock\ Climbing.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px 4px 4px 4px;
+    /* box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07); */
+}
+.p-img-2{
+    height: 95%;
+    width: 95%;
+    /* border: 1px solid black; */
+    background-image: url(images/Snow\ Skiing.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px 4px 4px 4px;
+}
+.p-img-3{
+    height: 95%;
+    width: 95%;
+    /* border: 1px solid black; */
+    background-image: url(images/Montain\ Biking.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px 4px 4px 4px;
+}
+.p-img-4{
+    height: 95%;
+    width: 95%;
+    /* border: 1px solid black; */
+    background-image: url(images/Sport\ Climbing.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px 4px 4px 4px;
+}
+.footer-section{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.footer-s1{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.footer-s2{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.main-first{
+    display: block;
+}
+.second-page{
+    display: block;
+}
+.footer-section{
+    display: block;
+}
+.laptop-total-view{
+    display: none;
+}
+.nav1{
+    display: none;
+}
+@media (min-width:1024px) {
+       
+    .main-first{
+        display: none;
+    }
+    .second-page{
+        display: none;
+    }
+    .footer-section{
+        display: none;
+    }
+    .laptop-total-view{
+        display: block;
+    }
+    .nav1{
+        display: block;
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+    .laptop-total-view{
+        height: 500%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .lp-1{
+        height: 18%;
+        width: 100%;
+        /* border: 1px solid black; */
+        background-image:url(images/first\ background\ image.jpg);
+        background-size: cover;
+    }
+    .lap-nav{
+        height: 15%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+       
+    }
+    .lap-section1{
+        height: 100%;
+        width: 80%;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    .nav1{
+        height: 100%;
+        width: 20%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .nav2{
+        height: 100%;
+        width: 80%;
+        /* border: 1px solid black; */
+    }
+    .lap-anker{
+        text-decoration: none;
+        color: white;
+    }
+
+    
+    .lap-section2{
+        height: 100%;
+        width: 20%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lap-button{
+        height: 45px;
+        width: 160px;
+        background-color: rgb(250, 51, 84);
+        color:white;
+        font-weight: 700;
+        border-radius: 10px 30px 10px 30px ;
+        /* border-top-left-radius: 30%; */
+        /* border-bottom-right-radius: 30%; */
+        border: none;
+        margin-top: 10px;
+    }
+    .explore-box{
+        height: 85%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .explore-section{
+        height: 70%;
+        width: 70%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .x-para{
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+    .lp-text{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .co-text{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .co2-text{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .coming-soon{
+        height: 20%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .anim-cont{
+        height: 60%;
+        width: 17%;
+        /* border: 1px solid lightgray; */
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background-color: rgba(121, 119, 119, 0.492) ;
+        box-shadow: 5px 5px 0 0px rgba(0, 0, 0, .07);
+        border-radius: 30px 30px 30px 30px ;
+        transition-duration: 5s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    .anim-cont:hover{
+        transform: translateX(480%);
+    }
+    .next-img-cont{
+        height: 130%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .next-child-cont{
+        height: 15%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .next-child-cont-2{
+        height: 85%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+
+    }
+    .first-img{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid black; */
+
+    }
+    .item-img{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .i1{
+        height: 85%;
+        width: 90%;
+        /* border: 1px solid black; */
+        background-image: url(images/camping.jpg);
+        background-size: cover;
+        box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+        border-radius: 4px 4px 4px 4px;
+
+    }
+    
+    .item-para{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-img{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid black; */
+    }
+    .i2{
+        height: 85%;
+        width: 90%;
+        /* border: 1px solid black; */
+        background-image: url(images/walking.jpg);
+        background-size: cover;
+        box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+        border-radius: 4px 4px 4px 4px;
+    }
+    .lp-explore{
+        height: 90%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        background-image: url(images/joshua-earle-Zm8dbwE5cyY-unsplash.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .expo-1{
+        height: 100%;
+        width: 40%;
+        /* border: 1px solid black; */
+    }
+    .expo-2{
+        height: 100%;
+        width: 60%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .remain-cont{
+        height: 80%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    .remain-1{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid black; */
+    }
+    .remain-child-1{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .child-img{
+        height: 90%;
+        width: 70%;
+        /* border: 1px solid black; */
+        background-image: url(images/mountainbiking2.jpg);
+        background-size: cover;
+        box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+        border-radius: 4px 4px 4px 4px;
+        transition-duration: 1s;
+    }
+    .child-img:hover{
+        transform: scale(1.1,1.1);
+    }
+    .child-img-2{
+        height: 90%;
+        width: 70%;
+        /* border: 1px solid black; */
+        background-image: url(images/snowclimbing2.jpg);
+        background-size: cover;
+        box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+        border-radius: 4px 4px 4px 4px;
+        transition-duration: 1s;
+    }
+    .child-img-2:hover{
+        transform: scale(1.2,1.2);
+    }
+    
+    .remain-child-2{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .remain-2{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid black; */
+    }
+    .remain-lp-1{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid black; */
+    }
+    .remain-lp-2{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid black; */
+    }
+    .remain-lp-child-1{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .re-img-section{
+        height: 90%;
+        width: 70%;
+        /* border: 1px solid black; */
+        background-image: url(images/Rock\ climbing2.jpg);
+        background-size: cover;
+        box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+        border-radius: 4px 4px 4px 4px;
+        transition-duration: 1s;
+    }
+    .re-img-section:hover{
+        transform: scale(1.2,1.2);
+    }
+    .remain-lp-child-2{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .re-img-section2{
+        height: 90%;
+        width: 70%;
+        /* border: 1px solid black; */
+        background-image: url(images/Sportclimbing2.jpg);
+        background-size: cover;
+        box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
+        border-radius: 4px 4px 4px 4px;
+        transition-duration: 1s;
+    }
+    .re-img-section2:hover{
+        transform: scale(1.1,1.1);
+    }
+    .blank{
+        height: 10%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .foot-section{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .foot-section-1{
+        height: 30%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .foot-section-2{
+        height: 70%;
+        width: 100%;
+        /* border: 1px solid black; */
+        background-color: rgb(47, 47, 47);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+
+    
+    
+    
+    
+
